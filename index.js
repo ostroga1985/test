@@ -26,4 +26,6 @@ const quick = (arr, lo = 0, hi = arr.length - 1) => {
 	if (l < hi) quick(arr, l, hi)
 }
 
+
+
 module.exports = quick
